@@ -1,13 +1,28 @@
-.stock-grid {
+h1, nav, figcaption, p {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+nav {
+    width: 50%;
+    margin: auto;
+}
 
+.nav-grid {
     display: grid;
-    
-    grid-template-columns: 1fr 1fr;
-    
-    grid-template-rows: 1fr 1fr 1fr;
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-column-gap: 0px;
-    
     grid-row-gap: 0px;
-    
+}
+.stock-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
